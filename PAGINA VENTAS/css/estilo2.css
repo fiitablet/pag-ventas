@@ -1,0 +1,181 @@
+/* body{
+    background:url(../img/presence-ii.png);
+} */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+main{
+    width: 100%;
+    height: auto;
+    /* background: purple; */
+    position: absolute;
+}
+
+.content-all{
+    width: 100%;
+    max-width: 1000px;
+    /* background:red; */
+    margin: auto;
+    margin-top: 80px;
+    /* border: 2px solid white; */
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* 60,100%, 50%  70, 80%, 30%, 0.9*/
+    background:hsla(300,95%, 25%, 0.7);
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .menu{
+    width: 400px;
+}
+
+/* .menu{
+    position: fixed;
+    top: 60px;
+    width: 0px;
+    height: 100vh;
+    background: hsla(300, 95%, 25%, 0.7);
+    transition: all 500ms cubic-bezier(1,0,0,1);
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    overflow: hidden;
+}
+.menu li{
+    list-style: none;
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+    display: block;
+    width: 400px;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.2);
+} */
+
+.content-all label{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.content-all h2{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 18px;
+    font-size: 26px;
+    text-align: right; */
+    /* color: white; */
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height:600px;
+    background: url(../img/rpa.jpg) no-repeat center top; background-size: cover;background-attachment: fixed;position: relative;
+}
+
+nav{
+    text-align:right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color:#fff;
+    font-weight:300;
+    text-decoration:none;
+/* font-size: 16px; */
+    margin-right: 20px;
+}
+nav > a:hover{
+    text-decoration:underline;
+}
+header .texto-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    /* flex-direction: column;
+    text-align: center; */
+}
+.texto-header h1{
+    font-size: 50px;
+    color: #fff;
+    top: 0;
+    weight:300;
+    height: 300;
+}
+.texto-header h2{
+    font-size: 30px;
+    font-weight:300;
+    color: #fff;
+}
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+/* .content-foo{
+    color: #fff;
+    border-bottom: 3px solid #00B0FF;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+
+} */
+.content-foo p{
+    color: #ccc;
+}
+.content-foo{
+    border: 3px solid #fff;
+    border-radius: 20%;
+    display:block;
+}
+
+.display-6{
+    background: #414141;
+}
+/* .ropa-remerones{
+    display: flex;
+} */
+.foto-moto{
+    display: flex;
+}
+.foto-amor{
+    display: flex;
+}
+.foto-amor .parrafo2 {
+    display: flex;
+}
